@@ -1099,7 +1099,7 @@ var HolyDays = function () {
     }
     show('');
 
-    var url = 'http://maps.googleapis.com/maps/api/geocode/json?latlng=' + _locationLat + ',' + _locationLong
+    var url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + _locationLat + ',' + _locationLong
     $.ajax({
       url: url,
       dataType: 'json',
